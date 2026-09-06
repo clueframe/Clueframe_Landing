@@ -10,7 +10,7 @@ Static website for **Clueframe: Picture Riddles** (Android) by Clueframe Games.
 
 ## Before publishing — required
 
-- [ ] **Contact email** — replace the highlighted `[CONTACT EMAIL — SET BEFORE PUBLISHING]` placeholder in `public/privacy/index.html`. A privacy policy without a working contact is a Play review problem.
+- [x] **Contact email** — set to `clueframe.developer@gmail.com` (2026-09-06).
 - [ ] **Hosting / final URL** — decide where this is served. Note: `clueframe.com` is registered to an unrelated company and must not be used. GitHub Pages for this repo would serve at `https://clueframe.github.io/Clueframe_Landing/`, making the policy URL `https://clueframe.github.io/Clueframe_Landing/privacy/`. All internal links are relative, so any host works.
 - [ ] **Update the app** — set `policy_link` in the Android app's `strings.xml` and the Play Console listing to the final policy URL.
 - [ ] **Ad network list** — re-verify the network list in the policy against the final CAS mediation configuration (`cas_settings*.json`) before release, and again whenever networks are added or removed.
